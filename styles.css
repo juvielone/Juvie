@@ -1,0 +1,163 @@
+/* Natural Sections */
+
+    body{
+      
+    }
+
+
+
+/* Top Section */
+#top-section{
+    background-color:#85a392;
+    text-align: center;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+
+
+/* Navigations */
+
+.navbar{
+    padding:0 0 2.5rem;
+}
+
+
+.navbar-brand{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+
+    padding: 0 18px;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+
+/* Header Section */
+
+
+
+
+.main-opening{
+
+    color: white;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.header-img{
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    /* width: 450px;
+    height: 350px; */
+
+}
+
+.myButtons{
+    
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* About Me  */
+
+#about-me{
+    background-color:white;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.description{
+    
+    text-align: center;
+    padding: 5%;      
+}
+
+.about-me-opening{            /*  why hello there! */
+    font-family: 'Pacifico', cursive;
+    color: rgb(171, 189, 179);
+    padding-bottom: 20px;
+}
+
+.about-me-name:hover{   /*     I'M NICOLE      */
+
+    background-color: rgb(171, 189, 179);
+    color: white;
+}
+
+.about-me-statement{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+  
+}
+
+.prof-pic{
+    border-radius: 50%;
+    width:21.875rem;
+    height:21.875rem;
+}
+
+
+/* Method Section */
+
+.method-container{
+    background-color:#f5b971;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.slide-title{
+    text-align: center;
+    padding: 7% 0;
+    
+}
+
+.slide-img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42.375rem;
+    height: 36.125rem;
+    padding-bottom: 13% ;
+}
+
+.number-steps{
+    padding-bottom: 20px;
+}
+
+/* Media Query Breakpoint */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    
+    
+    .header-img{
+        position: static;
+        
+    }
+
+}
+    
